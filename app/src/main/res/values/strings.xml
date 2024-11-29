@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">PERPUSON</string>
+    <string name="welcome">WELCOME</string>
+    <string name="email">EMAIL</string>
+    <string name="password">PASSWORD</string>
+    <string name="login">LOGIN</string>
+    <string name="lpps">Lupa password ?</string>
+    <string name="register">REGISTER</string>
+    <string name="logo">logo</string>
+    <string name="back">BACK</string>
+    <string name="logo1">logo</string>
+    <string name="register1">REGISTER</string>
+    <string name="adbook">ADD BOOK</string>
+    <string name="home">HOME</string>
+    <string name="profile">PROFILE</string>
+    <string name="publish">PUBLISH</string>
+    <string name="judul">judul</string>
+    <string name="pengarang">Pengarang</string>
+    <string name="buat_cerita">Buat cerita</string>
+    <string name="publish1">PUBLISH</string>
+    <string name="search_icon">search icon</string>
+    <string name="cari">Cari</string>
+    <string name="addbook">add book</string>
+    <string name="update">UPDATE</string>
+    <string name="edit_judul">Edit Judul</string>
+    <string name="edit_pengarang">Edit Pengarang</string>
+    <string name="edit_cerita">Edit Cerita</string>
+    <string name="save">SAVE</string>
+    <string name="t1">aplikasi ini dibuat dalam waktu sekitar 2 minggu dengan sedikit kegagalan dan cacat desain.</string>
+    <string name="t2">4 kali gagal, 2 kali rusak total(gara-gara gradle corrupt), laptop nyerah 1 kali</string>
+    <string name="t3">ndak tau mau diisi apa</string>
+    <string name="logout">LOGOUT</string>
+    <string name="edit">EDIT</string>
+    <string name="delete">DELETE</string>
+</resources>

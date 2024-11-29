@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bckg2"
+    tools:context=".InterfaceActivity"
+    android:id="@+id/ly1">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbars="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="80dp">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerViewBooks"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="8dp"
+        android:layout_gravity="bottom"
+        android:background="#8BEFA6">
+
+        <ImageButton
+            android:id="@+id/btnAddbook"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/add_book"
+            android:background="@drawable/image_button_border"
+            android:contentDescription="@string/addbook"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="50dp" />
+
+        <ImageButton
+            android:id="@+id/btnHome"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/home"
+            android:background="@drawable/image_button_border"
+            android:contentDescription="@string/home"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="50dp" />
+
+        <ImageButton
+            android:id="@+id/btnProfile"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/account_circle"
+            android:background="@drawable/image_button_border"
+            android:contentDescription="@string/profile"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="30dp" />
+
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

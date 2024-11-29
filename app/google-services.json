@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1040678135230",
+    "project_id": "sonpulators",
+    "storage_bucket": "sonpulators.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1040678135230:android:85a80ab27fb0bf724e45ef",
+        "android_client_info": {
+          "package_name": "com.example.sonp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1jkf3siOKh0HJ_IjLyZRqZkUrfVoUQoo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

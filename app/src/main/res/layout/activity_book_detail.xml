@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bckg2">
+
+    <ScrollView
+        android:id="@+id/scrollViewContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/buttonLayout"
+        android:padding="16dp"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/textViewTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/judul"
+                android:textAlignment="center"
+                android:textColorHint="@color/text_color"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewAuthor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/pengarang"
+                android:textColorHint="@color/text_color"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/text_color" />
+
+            <TextView
+                android:id="@+id/textViewContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/buat_cerita"
+                android:textColorHint="@color/text_color"
+                android:textSize="18sp"
+                android:layout_marginTop="15dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <!-- Buttons fixed at the bottom -->
+    <LinearLayout
+        android:id="@+id/buttonLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:gravity="center"
+        android:background="#4CAF50">
+        <Button
+            android:id="@+id/buttonEdit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/edit"
+            android:textSize="18sp"
+            android:backgroundTint="#FB0EC1B2"
+            android:textColor="@color/text_color"
+            android:layout_marginEnd="8dp" />
+
+        <Button
+            android:id="@+id/buttonDelete"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/delete"
+            android:textSize="18sp"
+            android:backgroundTint="#F44336"
+            android:textColor="@android:color/white"
+            android:layout_marginStart="8dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>
